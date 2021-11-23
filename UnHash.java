@@ -8,22 +8,19 @@ class UnHash{
     public static String letters = "cdefghijlmnoqstuvxz";
 
     public static long revHash(long hash) {
-        long  s = hash ;
+        long  a = hash ;
         long h = 0L;
         for (int i = 0; i < 20 ; i++){
-            h = s % 23 ;
-            s = (s - h) / 23;
+            h = a % 23 ;
+            a = (a - h) / 23;
             char ans = letters.charAt((int) h);
             System.out.println(ans);
-            if(s == 7){
+            if(a == 7){
                 break;
             }
         }
-        return s;
-
-
+        return a;
     }
-
     public static long hash(String s){
         long h = 7;
         for (int i = 0; i < s.length(); i++){

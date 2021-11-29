@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
 class UnHash{
 
     public static void main (String[] args) {
@@ -10,15 +13,16 @@ class UnHash{
     public static long revHash(long hash) {
         long  a = hash ;
         long h = 0L;
-        for (int i = 0; i < 20 ; i++){
+        ArrayList<String> An = new ArrayList<String>();
+        while(a >= 8){
             h = a % 23 ;
             a = (a - h) / 23;
             char ans = letters.charAt((int) h);
-            System.out.println(ans);
-            if(a == 7){
-                break;
-            }
+            String stAns = Character.toString(ans);
+            An.add(stAns);
         }
+        Collections.reverse(An);
+        System.out.println(An);
         return a;
     }
     public static long hash(String s){

@@ -1,0 +1,84 @@
+{
+    // 使用 IntelliSense 以得知可用的屬性。
+    // 暫留以檢視現有屬性的描述。
+    // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Average",
+            "request": "launch",
+            "mainClass": "Average",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch BMI",
+            "request": "launch",
+            "mainClass": "BMI",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch For_loop",
+            "request": "launch",
+            "mainClass": "For_loop",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hash_",
+            "request": "launch",
+            "mainClass": "Hash_",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello_world",
+            "request": "launch",
+            "mainClass": "Hello_world",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch UnHash",
+            "request": "launch",
+            "mainClass": "UnHash",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch While_loop",
+            "request": "launch",
+            "mainClass": "While_loop",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiple",
+            "request": "launch",
+            "mainClass": "multiple",
+            "projectName": "NKUST_C110181149_5e896203"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "NKUST_C110181149_5e896203"
+        }
+    ]
+}

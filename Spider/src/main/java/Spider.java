@@ -15,7 +15,6 @@ public class Spider {
             }
         }
         catch(Exception e) {
-            System.out.println(e);
         }
     }
 }

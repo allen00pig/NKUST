@@ -4,5 +4,7 @@ public class Person {
     int age;
     String name;
     int getAge(){
+        return this.age;
     }
+
 }

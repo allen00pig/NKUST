@@ -1,4 +1,4 @@
-package Game;
+package Game.Game;
 
 public class Role {
     int HP; //data member

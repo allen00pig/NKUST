@@ -1,7 +1,7 @@
 package Game;
 
 public class Berserker extends Role {
-    Berserker(int roleHP, int roleMP, int roleATTACK) {
-        super(roleHP, roleMP, roleATTACK);
+    Berserker(String roleName,int roleHP, int roleMP, int roleATTACK) {
+        super(roleName,roleHP, roleMP, roleATTACK);
     }
 }

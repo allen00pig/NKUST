@@ -5,8 +5,9 @@ public class Archer extends Role{
     int HP;
     int MP;
     String Chant;
+    String Name;
 
-    Archer(int roleHP, int roleMP, int roleATTACK) {
-        super(roleHP, roleMP, roleATTACK);
+    Archer(String roleName, int roleHP, int roleMP, int roleATTACK) {
+        super(roleName,roleHP, roleMP, roleATTACK);
     }
 }

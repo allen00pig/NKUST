@@ -5,8 +5,8 @@ public class Magician extends Role {
     int HP;
     int MP;
 
-        Magician(int roleHP, int roleMP, int roleAtt){
-            super(roleHP,roleMP,roleAtt);
+        Magician(String roleName,int roleHP, int roleMP, int roleAtt){
+            super(roleName,roleHP,roleMP,roleAtt);
         }
 
 }
